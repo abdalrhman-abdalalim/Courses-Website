@@ -1,0 +1,121 @@
+:root{
+    --primary-color:rgb(8,7,7);
+    --second-color:white;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--primary-color);
+}
+.fstimg{
+    width: 100%;
+    height: 550px;
+}
+.tit2ndContent{
+    margin-top: 100px;
+    margin-left: 350px;
+    color: rgb(92, 28, 28);
+}
+.form-control{
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+}
+.form-control input:focus{
+    outline: none;
+    border: none;
+}
+.carousel-inner img{
+    width: 400px;
+    height: 400px;
+}
+.side{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 600px;
+    height: 500px;
+}
+.tit{
+    color:var(--second-color);
+    width: 600px;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+.nav-link img{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 40%;
+}
+.lightMode{
+    background-color: var(--second-color);
+}
+.darkMode{
+    --primary-color:white;
+    --second-color:rgb(8,7,7);
+}
+span{
+    color: brown;
+}
+.preTit{
+    margin-left: 700px;
+    color: var(--second-color);
+}
+.sponsers{
+    color: var(--second-color);
+    margin-top: 200px;
+    margin-left: 20px;
+    display: block;
+}
+.sponsers ul{
+    width: 95%;
+    padding-top: 20px;
+    color: var(--second-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgCard{
+    width: 259px;
+    height: 240px;
+}
+.card-text{
+    margin-top: 100px;
+    color:var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.274);
+}
+.become{
+    height: 500px;
+    width: 120%;
+    margin-top: 90px;
+    background-color: var(--primary-color);
+}
+.become h1{
+    color:var(--second-color);
+}
+.become h4{
+    margin-top: 30px;
+    color: var(--second-color);
+}
+.container .row{
+    margin-top: 100px;
+}
+.becomeImg{
+    width: 400px;
+}
+button{
+    border-color:var(--second-color);
+    background-color:rgb(92, 28, 28) ;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: var(--second-color);
+    border-radius: 30px;
+}
+.navbar-collapse ul li{
+    display: flex;
+    align-items: center;
+}
